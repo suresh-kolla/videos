@@ -1,0 +1,7 @@
+.fonts {
+  font-size: 40px;
+}
+label {
+  display: flex !important;
+  align-items: center !important;
+}
