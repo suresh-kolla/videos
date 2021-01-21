@@ -8,7 +8,7 @@ export default class app extends Component {
   state = { videoList: [], selectedVideo: null };
   KEY = "AIzaSyAjbB3lnb1S_MakGPO5pv6oZQJeoOqnsHo";
   componentDidMount() {
-    this.getSearch("billie eilish whatsapp status");
+    this.getSearch("Tirigi tirigi");
   }
   getSearch = async (term) => {
     const response = await youtube.get("/search", {
